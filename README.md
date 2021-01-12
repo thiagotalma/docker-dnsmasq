@@ -2,7 +2,7 @@
 
 ```docker build -t talma-dnsmasq .```
 
-```
+```SHELL
 docker run \
     --name dnsmasq \
     -d \
