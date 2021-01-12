@@ -2,6 +2,7 @@
 
 ```docker build -t talma-dnsmasq .```
 
+```
 docker run \
     --name dnsmasq \
     -d \
@@ -14,3 +15,4 @@ docker run \
     -e "HTTP_PASS=bar" \
     --restart always \
     talma-dnsmasq
+```
