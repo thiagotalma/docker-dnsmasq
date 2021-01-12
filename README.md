@@ -1,6 +1,6 @@
 # docker-dnsmasq
 
-docker build -t talma-dnsmasq .
+```docker build -t talma-dnsmasq .```
 
 docker run \
     --name dnsmasq \
